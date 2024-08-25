@@ -2,6 +2,10 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyo
+
+# Ignore dataset and result files if not needed
+*.npy
 
 # C extensions
 *.so
